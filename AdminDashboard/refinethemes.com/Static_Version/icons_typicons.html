@@ -1,0 +1,2014 @@
+<!--
+*
+*  Adminos - Responsive Admin Template
+*  version 1.0
+*
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from refinethemes.com/Static_Version/icons_typicons.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Mar 2021 05:56:41 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adminos | Admin Dashboard</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome CSS -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!--  Feather Icon CSS -->
+    <link href="icon/feather/css/feather.css" rel="stylesheet">
+    <!-- Toastr style -->
+    <link href="plugins/toastr/toastr.min.css" rel="stylesheet">
+    <!-- Gritter -->
+    <link href="plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link href="plugins/animate.css/css/animate.css" rel="stylesheet">
+    <!-- I-Check CSS -->
+    <link href="plugins/iCheck/custom.css" rel="stylesheet">
+    <!--Jquery-ui-->
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.css">
+    <!-- Custom CSS Style-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Typicons Icons-->
+    <link rel="stylesheet" href="icon/typicons-icons/css/typicons.min.css">
+</head>
+<body class="default-theme canvas-menu mini-navbar">
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side">
+            <div class="sidebar-brand fixed-brand">
+                <img class="logo-element-img img-logo" id="logo" src="img/LOGO_2.png" alt="">
+                <a class="close-canvas-menu text-white float-right"><i class="fa fa-times"></i></a>
+            </div>
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="logo-element fixed-brand">
+                            <img class="mini-logo" src="img/LOGO_3.png" alt="">
+                        </div>
+                        <div class="dropdown profile-element">
+                            <div class="sidebar-header">
+                                <div class="sidebar-nav-search">
+                                    <div class="input-group mb-3 input-group-sm input-group-border">
+                                        <input type="text" class="form-control input-group-text" id="search-menu" placeholder="Search Menu ...">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-secondary toggle-btn" type="submit"><i class="feather icon-x-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile-bg"><img src="img/profile_bg.jpg" alt=""></div>
+                                <div class="search-toggle toggle-btn"><i class="feather icon-chevron-up"></i></div>
+                                <div class="user-profile-info">
+                                    <div class="user-pic">
+                                        <img class="img-responsive img-rounded" alt="User picture" src="img/users/user3.jpg">
+                                    </div>
+                                    <div class="user-info">
+                                        <span class="user-name">John
+                                            <strong>Smith</strong>
+                                        </span>
+                                        <span class="user-role">Administrator</span>
+                                        <span class="user-status">
+                                            <i class="fa fa-circle text-success"></i>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item category-titles"><a>Navigation</a></li>
+                    <li class="nav-item">
+                        <a href="index-2.html" class="nav-link"><i class="fa feather icon-home"></i> <span class="nav-label">Dashboards</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a href="index-2.html" class="nav-link"><i class="fa fa-circle-o"></i> Dashboard v.1</a></li>
+                            <li class="nav-item"><a href="dashboard_v2.html" class="nav-link"><i class="fa fa-circle-o"></i> Dashboard v.2</a></li>
+                            <li class="nav-item"><a href="dashboard_v3.html" class="nav-link"><i class="fa fa-circle-o"></i> Dashboard v.3</a></li>
+                            <li class="nav-item"><a href="dashboard_v4.html" class="nav-link"><i class="fa fa-circle-o"></i> Dashboard v.4</a></li>
+                            <li class="nav-item"><a href="dashboard_v5.html" class="nav-link"><i class="fa fa-circle-o"></i> Dashboard v.5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="layouts.html"><i class="fa feather icon-sidebar"></i> <span class="nav-label">Page Layouts</span> <span class="label label-danger">New</span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a href="left_sidebar.html" class="nav-link"><i class="fa fa-circle-o"></i> Left Side Navigation</a></li>
+                            <li class="nav-item"><a href="rtl_layout.html" class="nav-link"><i class="fa fa-circle-o"></i> RTL Navigation</a></li>
+                            <li class="nav-item"><a href="top_center_layout.html" class="nav-link"><i class="fa fa-circle-o"></i> Top Fluid Navbar</a></li>
+                            <li class="nav-item"><a href="mini-sidebar.html" class="nav-link"><i class="fa fa-circle-o"></i> Mini Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="navigation.html"><i class="fa feather icon-menu"></i> <span class="nav-label">Navigation</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="widget.html"><i class="fa feather icon-layers"></i> <span class="nav-label">Widget </span> <span class="label label-success">100 +</span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="statistic.html"><i class="fa fa-circle-o"></i> Statistic</a></li>
+                            <li class="nav-item"><a class="nav-link" href="data.html"><i class="fa fa-circle-o"></i> Data</a></li>
+                            <li class="nav-item"><a class="nav-link" href="chart_widget.html"><i class="fa fa-circle-o"></i> Chart Widget</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item category-titles"><a>UI Element</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="basic_components.html"><i class="fa feather icon-box"></i> <span class="nav-label">Basic Components</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="alert.html"><i class="fa fa-circle-o"></i>Alert</a></li>
+                            <li class="nav-item"><a class="nav-link" href="breadcrumbs.html"><i class="fa fa-circle-o"></i> Breadcrumbs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="buttons.html"><i class="fa fa-circle-o"></i> Button</a></li>
+                            <li class="nav-item"><a class="nav-link" href="box_shadow.html"><i class="fa fa-circle-o"></i>Box Shadow</a></li>
+                            <li class="nav-item"><a class="nav-link" href="accordion.html"><i class="fa fa-circle-o"></i> Accordion</a></li>
+                            <li class="nav-item"><a class="nav-link" href="generic_class.html"><i class="fa fa-circle-o"></i> Generic Class</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tabs.html"><i class="fa fa-circle-o"></i> Tabs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="color.html"><i class="fa fa-circle-o"></i> Color</a></li>
+                            <li class="nav-item"><a class="nav-link" href="label_badge.html"><i class="fa fa-circle-o"></i> Label Badge</a></li>
+                            <li class="nav-item"><a class="nav-link" href="progress_bar.html"><i class="fa fa-circle-o"></i> Progress Bar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pre_loader.html"><i class="fa fa-circle-o"></i> Pre-Loader</a></li>
+                            <li class="nav-item"><a class="nav-link" href="list.html"><i class="fa fa-circle-o"></i> List</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tooltip_popover.html"><i class="fa fa-circle-o"></i> Tooltip & Popover</a></li>
+                            <li class="nav-item"><a class="nav-link" href="typography.html"><i class="fa fa-circle-o"></i> Typography</a></li>
+                            <li class="nav-item"><a class="nav-link" href="other.html"><i class="fa fa-circle-o"></i> Other</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="basic_components.html"><i class="fa feather icon-gitlab"></i> <span class="nav-label">Advance Components</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="draggable.html"><i class="fa fa-circle-o"></i>Draggable</a></li>
+                            <li class="nav-item"><a class="nav-link" href="grid_stack.html"><i class="fa fa-circle-o"></i> Grid Stack</a></li>
+                            <li class="nav-item"><a class="nav-link" href="light_box.html"><i class="fa fa-circle-o"></i> Light Box</a></li>
+                            <li class="nav-item"><a class="nav-link" href="modal.html"><i class="fa fa-circle-o"></i> Modal</a></li>
+                            <li class="nav-item"><a class="nav-link" href="notifications.html"><i class="fa fa-circle-o"></i> Notifications</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pnotify.html"><i class="fa fa-circle-o"></i> PNotify</a></li>
+                            <li class="nav-item"><a class="nav-link" href="rating.html"><i class="fa fa-circle-o"></i> Rating</a></li>
+                            <li class="nav-item"><a class="nav-link" href="range_slider.html"><i class="fa fa-circle-o"></i> Range Slider</a></li>
+                            <li class="nav-item"><a class="nav-link" href="slider.html"><i class="fa fa-circle-o"></i> Slider</a></li>
+                            <li class="nav-item"><a class="nav-link" href="syntax_highlighter.html"><i class="fa fa-circle-o"></i> Syntax Highlighter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tour.html"><i class="fa fa-circle-o"></i> Tour</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tree_view.html"><i class="fa fa-circle-o"></i> Tree View</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nestable.html"><i class="fa fa-circle-o"></i> Nestable</a></li>
+                            <li class="nav-item"><a class="nav-link" href="toolbar.html"><i class="fa fa-circle-o"></i> Toolbar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="x-editable.html"><i class="fa fa-circle-o"></i> Editable</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animations.html"><i class="fa feather icon-aperture rotate-icon"></i> <span class="nav-label">Animations</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pin_board.html"><i class="fa feather icon-file-text"></i> <span class="nav-label">Pin Board</span> <span class="label label-info">Hot</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa feather icon-command"></i> <span class="nav-label">Icons</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li class="nav-item"><a class="nav-link" href="icons_font_awesome.html"><i class="fa fa-circle-o"></i> Font Awesome</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_themify.html"><i class="fa fa-circle-o"></i> Themify</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_simple_line_icon.html"><i class="fa fa-circle-o"></i> Simple Line Icon</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_ion_icon.html"><i class="fa fa-circle-o"></i> Ion Icon</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_material_design.html"><i class="fa fa-circle-o"></i> Material Design</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_weather_icon.html"><i class="fa fa-circle-o"></i> Weather Icon</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_typicons.html"><i class="fa fa-circle-o"></i> Typicons</a></li>
+                            <li class="nav-item"><a class="nav-link" href="icons_flags_icon.html"><i class="fa fa-circle-o"></i> Flags Icons</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item category-titles"><a>Forms</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-clipboard"></i> <span class="nav-label">Form Components</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="form_components.html"><i class="fa fa-circle-o"></i> Form Components</a></li>
+                            <li class="nav-item"><a class="nav-link" href="form_elements_add_on.html"><i class="fa fa-circle-o"></i> Components Add On</a></li>
+                            <li class="nav-item"><a class="nav-link" href="form_elements_advance.html"><i class="fa fa-circle-o"></i> Advance Components</a></li>
+                            <li class="nav-item"><a class="nav-link" href="form_validation.html"><i class="fa fa-circle-o"></i> Form Validation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form_picker.html"><i class="fa feather icon-edit-1"></i> <span class="nav-label">Form Picker</span> <span class="label label-warning">New</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form_select.html"><i class="fa feather icon-feather"></i> <span class="nav-label">Form Select</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form_masking.html"><i class="fa feather icon-shield"></i> <span class="nav-label">Form Masking</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form_wizard.html"><i class="fa feather icon-tv"></i> <span class="nav-label">Form Wizard</span></a>
+                    </li>
+                    <li class="nav-item category-titles"><a>Tables</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-twitter"></i> <span class="nav-label">Bootstrap Table</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="table_basic_table.html"><i class="fa fa-circle-o"></i> Basic Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="table_sizing_table.html"><i class="fa fa-circle-o"></i> Sizing Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="table_border_table.html"><i class="fa fa-circle-o"></i> Border Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="table_styling_table.html"><i class="fa fa-circle-o"></i> Styling Table</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-inbox"></i> <span class="nav-label">DataTable</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="datatable_basic_initialization.html"><i class="fa fa-circle-o"></i> Basic Initialization</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_advance_initialization.html"><i class="fa fa-circle-o"></i> Advance Initialization</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_styling.html"><i class="fa fa-circle-o"></i> DataTable Styling</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_plugin.html"><i class="fa fa-circle-o"></i> DataTable Plugin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-server"></i> <span class="nav-label">DataTable Extensions</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="datatable_auto_fill.html"><i class="fa fa-circle-o"></i> Auto Fill</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_button.html"><i class="fa fa-circle-o"></i> Button</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_column_reorder.html"><i class="fa fa-circle-o"></i> Column Reorder</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_fixed_columns.html"><i class="fa fa-circle-o"></i> Fixed Columns</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_fixed_header.html"><i class="fa fa-circle-o"></i> Fixed Header</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_key_table.html"><i class="fa fa-circle-o"></i> Key Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_responsive.html"><i class="fa fa-circle-o"></i> Responsive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_row_reorder.html"><i class="fa fa-circle-o"></i> Row Reorder</a></li>
+                            <li class="nav-item"><a class="nav-link" href="datatable_select_table.html"><i class="fa fa-circle-o"></i> Select Table</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foo-table.html"><i class="fa feather icon-grid"></i> <span class="nav-label">FooTable</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="editable_table.html"><i class="fa feather icon-edit"></i> <span class="nav-label">EdiTable Table</span></a>
+                    </li>
+                    <li class="nav-item category-titles"><a>Chart And Maps</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-pie-chart"></i> <span class="nav-label">Charts</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="charts_google_chart.html"><i class="fa fa-circle-o"></i> Google Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_echarts_chart.html"><i class="fa fa-circle-o"></i> Echarts</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_chartjs_chart.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_list_chart.html"><i class="fa fa-circle-o"></i> List Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_flot_chart.html"><i class="fa fa-circle-o"></i> Flot Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_knob_chart.html"><i class="fa fa-circle-o"></i> Knob Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_morris_chart.html"><i class="fa fa-circle-o"></i> Morris Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_nvd3_chart.html"><i class="fa fa-circle-o"></i> Nvd3 Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_peity_chart.html"><i class="fa fa-circle-o"></i> Peity Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_radial_chart.html"><i class="fa fa-circle-o"></i> Radial Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_rickshaw_chart.html"><i class="fa fa-circle-o"></i> Rickshaw Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_sparkline_chart.html"><i class="fa fa-circle-o"></i> Sparkline Chart</a></li>
+                            <li class="nav-item"><a class="nav-link" href="charts_c3_chart.html"><i class="fa fa-circle-o"></i> C3 Chart</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="editable_table.html"><i class="fa feather icon-map"></i> <span class="nav-label">Maps</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="maps_vector_map.html"><i class="fa fa-circle-o"></i> Vector Map</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item category-titles"><a>Pages</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-unlock"></i> <span class="nav-label">Authentication</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="auth_bg_image_signin.html"><i class="fa fa-circle-o"></i> Login One</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_social_icons_signin.html"><i class="fa fa-circle-o"></i> Login Two</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_bg_image_registration.html"><i class="fa fa-circle-o"></i> Registration One</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_social_icons_registration.html"><i class="fa fa-circle-o"></i> Registration Two</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_multi_step_registration.html"><i class="fa fa-circle-o"></i> Multi Step Registration</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_forgot_password.html"><i class="fa fa-circle-o"></i> Forgot Password</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_lock_screen.html"><i class="fa fa-circle-o"></i> Lock Screen</a></li>
+                            <li class="nav-item"><a class="nav-link" href="auth_login_modal.html"><i class="fa fa-circle-o"></i> Login With Modal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-sliders"></i> <span class="nav-label">Maintenance</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="mainten_error.html"><i class="fa fa-circle-o"></i> Error</a></li>
+                            <li class="nav-item"><a class="nav-link" href="mainten_comming_soon.html"><i class="fa fa-circle-o"></i> Comming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-users"></i> <span class="nav-label">User Profile</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="user_timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
+                            <li class="nav-item"><a class="nav-link" href="user_timeline_social.html"><i class="fa fa-circle-o"></i> Timeline Social</a></li>
+                            <li class="nav-item"><a class="nav-link" href="user_profile.html"><i class="fa fa-circle-o"></i> User Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="user_card.html"><i class="fa fa-circle-o"></i> User Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-shopping-cart"></i> <span class="nav-label">E-Commerce</span> <span class="label label-success">New</span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="ecommerce_product.html"><i class="fa fa-circle-o"></i> Product</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ecommerce_product_list.html"><i class="fa fa-circle-o"></i> Product list</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ecommerce_product_edit.html"><i class="fa fa-circle-o"></i> Product Edit</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ecommerce_product_detail.html"><i class="fa fa-circle-o"></i> Product Detail</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ecommerce_product_card.html"><i class="fa fa-circle-o"></i> Product Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-mail"></i> <span class="nav-label">Email</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="email_compose.html"><i class="fa fa-circle-o"></i> Compose Email</a></li>
+                            <li class="nav-item"><a class="nav-link" href="email_inbox.html"><i class="fa fa-circle-o"></i> Inbox</a></li>
+                            <li class="nav-item"><a class="nav-link" href="email_read.html"><i class="fa fa-circle-o"></i> Read Email</a></li>
+                            <li class="nav-item"><a class="nav-link" href="email_template.html"><i class="fa fa-circle-o"></i> Email Template</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item category-titles"><a>App</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html"><i class="fa feather icon-message-square"></i> <span class="nav-label">Chat</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-globe"></i> <span class="nav-label">Social</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="social_wall.html"><i class="fa fa-circle-o"></i> Wall</a></li>
+                            <li class="nav-item"><a class="nav-link" href="social_messages.html"><i class="fa fa-circle-o"></i> Messages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-check-circle"></i> <span class="nav-label">Task</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="task_list.html"><i class="fa fa-circle-o"></i> Task List</a></li>
+                            <li class="nav-item"><a class="nav-link" href="task_board.html"><i class="fa fa-circle-o"></i> Task Board</a></li>
+                            <li class="nav-item"><a class="nav-link" href="task_detail.html"><i class="fa fa-circle-o"></i> Task Detail</a></li>
+                            <li class="nav-item"><a class="nav-link" href="task_issue_list.html"><i class="fa fa-circle-o"></i> Issue List</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-bookmark"></i> <span class="nav-label">To-Do</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="todo.html"><i class="fa fa-circle-o"></i> Todo</a></li>
+                            <li class="nav-item"><a class="nav-link" href="todo_notes.html"><i class="fa fa-circle-o"></i> Notes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-image"></i> <span class="nav-label">Gallery</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="gallery_grid.html"><i class="fa fa-circle-o"></i> Gallery Grid</a></li>
+                            <li class="nav-item"><a class="nav-link" href="gallery_masonry.html"><i class="fa fa-circle-o"></i> Masonry Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="gallery_advance.html"><i class="fa fa-circle-o"></i> Advance Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-search"></i> <span class="nav-label">Search</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="search_simple.html"><i class="fa fa-circle-o"></i> Simple Search</a></li>
+                            <li class="nav-item"><a class="nav-link" href="search_grouping.html"><i class="fa fa-circle-o"></i> Grouping Search</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item category-titles"><a>Extension</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-file-plus"></i> <span class="nav-label">Editor</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="editor_ckeditor.html"><i class="fa fa-circle-o"></i> CK-Editor</a></li>
+                            <li class="nav-item"><a class="nav-link" href="editor_wysiwyg.html"><i class="fa fa-circle-o"></i> WYSIWYG Editor</a></li>
+                            <li class="nav-item"><a class="nav-link" href="editor_ace_editor.html"><i class="fa fa-circle-o"></i> Ace Editor</a></li>
+                            <li class="nav-item"><a class="nav-link" href="editor_long_press.html"><i class="fa fa-circle-o"></i> Long Press Editor</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-file-minus"></i> <span class="nav-label">Invoice</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item"><a class="nav-link" href="invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                            <li class="nav-item"><a class="nav-link" href="invoice_summary.html"><i class="fa fa-circle-o"></i> Invoice Summary</a></li>
+                            <li class="nav-item"><a class="nav-link" href="invoice_list.html"><i class="fa fa-circle-o"></i> Invoice List</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="full_calendar.html"><i class="fa feather icon-calendar"></i> <span class="nav-label">Full Calendar</span> <span class="label label-warning">Hot</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="image_cropper.html"><i class="fa feather icon-scissors"></i> <span class="nav-label">Image Cropper</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file_upload.html"><i class="fa feather icon-upload-cloud"></i> <span class="nav-label">File Upload</span></a>
+                    </li>
+                    <li class="nav-item category-titles"><a>Other</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa feather icon-list"></i> <span class="nav-label">Menu Levels </span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="damian"><i class="fa fa-circle-o"></i> Third Level <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Third Level Item</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Third Level Item</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Third Level Item</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Second Level Item</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Second Level Item</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o"></i> Second Level Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item disabled" href="#"><i class="fa feather icon-power"></i> <span class="nav-label">Disabled Menu</span></a>
+                    </li>
+                    <li class="nav-item category-titles"><a>Support</a></li>
+                    <li class="nav-item landing_link">
+                        <a class="nav-link" href="landing.html"><i class="fa feather icon-navigation-2"></i> <span class="nav-label">Landing Page</span> <span class="label label-danger">NEW</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://refinethemes.com/Documentation/index.html"><i class="fa feather icon-monitor"></i> <span class="nav-label">Documentation</span></a>
+                    </li>
+                </ul>
+                <div class="sidebar-footer hidden-small">
+                    <a class="setting-btn" data-toggle="tooltip" data-placement="top" title="Open Settings Menu" data-original-title="Settings">
+                        <span class="feather icon-settings" aria-hidden="true"></span>
+                    </a>
+                    <a onclick="toggleFullScreen();" class="toggle-full-screen" data-toggle="tooltip" data-placement="top" title="Go FullScreen" data-original-title="FullScreen">
+                        <span id="full-screen" class="feather icon-maximize full-screen" aria-hidden="true"></span>
+                    </a>
+                    <a id="disable-click" data-toggle="tooltip" data-placement="top" title="Lock Sidebar" data-original-title="Lock">
+                        <span class="feather icon-eye" aria-hidden="true"></span>
+                    </a>
+                    <a data-toggle="tooltip" data-placement="top" title="Logout From Site" href="login.html" data-original-title="Logout">
+                        <span class="feather icon-power" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="page-wrapper" class="gray-bg topMargin">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top navbar-fixed-top topNav-white-theme" id="topNavbar">
+                    <div class="navbar-header left">
+                        <a class="nav-link navbar-mini mini-style" href="#"><i class="feather icon-menu icon-toggle-left"></i></a>
+                        <div class="searchbar">
+                            <input class="search_input" type="text" placeholder="Search...">
+                            <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn-full-screen toggle-full-screen" onclick="toggleFullScreen();" data-toggle="tooltip" data-placement="top" title="Go FullScreen" data-original-title="FullScreen"><span id="top-full-screen" class="feather icon-maximize full-screen" aria-hidden="true"></span></a>
+                        </li>
+                        <li class="nav-item dropdown message-dropdown">
+                            <a class="nav-link dropdown-toggle count-msg show-notification" data-toggle="dropdown" href="#">
+                                <i class="fa fa-envelope-o"></i> <span class="label label-success">146</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right notifications bounce animated  ml-auto">
+                                <li class="notification-heading">
+                                    <h6 class="menu-title">Messages</h6>
+                                </li>
+                                <li>
+                                    <ul class="dropdown-messages">
+                                        <li class="nav-item">
+                                            <div class="dropdown-messages-box">
+                                                <a href="profile.html" class="float-left pt-1">
+                                                    <img alt="image" class="img-circle" src="img/2.jpg">
+                                                </a>
+                                                <div class="media-body">
+                                                    <small class="float-right">46h ago</small>
+                                                    <strong>John Loreipsum</strong> started following <strong>Anna Smith</strong>. <br>
+                                                    <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="nav-item">
+                                            <div class="dropdown-messages-box">
+                                                <a href="profile.html" class="float-left pt-1">
+                                                    <img alt="image" class="img-circle" src="img/9.jpg">
+                                                </a>
+                                                <div class="media-body ">
+                                                    <small class="float-right text-navy">5h ago</small>
+                                                    <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                                    <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="nav-item">
+                                            <div class="dropdown-messages-box">
+                                                <a href="profile.html" class="float-left pt-1">
+                                                    <img alt="image" class="img-circle" src="img/2.jpg">
+                                                </a>
+                                                <div class="media-body ">
+                                                    <small class="float-right">23h ago</small>
+                                                    <strong>Monica Smith</strong> love <strong>Carlos Smith</strong>. <br>
+                                                    <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="nav-item">
+                                            <div class="dropdown-messages-box">
+                                                <a href="profile.html" class="float-left pt-1">
+                                                    <img alt="image" class="img-circle" src="img/9.jpg">
+                                                </a>
+                                                <div class="media-body ">
+                                                    <small class="float-right text-navy">5h ago</small>
+                                                    <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                                    <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="notification-footer">
+                                    <h6 class="menu-title">View all<i class="glyphicon glyphicon-circle-arrow-right"></i></h6>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle count-msg show-chat-list" data-toggle="dropdown" href="#">
+                                <i class="fa fa-bell-o"></i> 
+                                <span class="label label-danger">12</span>
+                            </a>
+                        </li>
+                        <li class="nav-item user-profile header-notification">
+                            <div class="nav-link dropdown-primary dropdown config">
+                                <div class="dropdown-toggle" aria-expanded="true" data-toggle="dropdown" role="menu">
+                                    <img class="img-radius" alt="User-Profile-Image" src="img/users/user3.jpg"><span class="text-light"> John SR </span><i class="feather icon-chevron-down"></i>
+                                </div>
+                                <ul class="dropdown-menu dropdown-menu-right mb-3 menu-log flipInX animated  ml-auto" data-dropdown-out="fadeOut" data-dropdown-in="fadeIn">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link setting-btn">
+                                            <i class="fa fa-cogs"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="profile.html">
+                                            <i class="fa fa-user"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mailbox.html">
+                                            <i class="fa fa-envelope"></i> My Messages
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="lockscreen.html">
+                                            <i class="fa fa-lock"></i> Lock Screen
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="login.html">
+                                            <i class="fa fa-sign-out"></i> Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!--Page Content-->
+                        <div class="wrapper wrapper-content">
+                            <!--Main Content-->
+                            <div class="row mb-3">
+                                <div class="col-sm-12 col-md-7 col-lg-8 col-xl-8">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="default">Adminos</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Icons</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Typicons</li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 text-center">
+                                    <span id="Date" class="float-right"></span>
+                                </div>
+                            </div>
+                            <!-- Start FROM HERE  -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!-- Typicons-icons panel start -->
+                                    <div class="panel-box">
+                                        <div class="panel-box-title">
+                                            <h5>Typicons-icons</h5>
+                                        </div>
+                                        <div class="panel-box-content p-3">
+                                            <div class="data-table-main icons-list-box">
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chart-pie-outline"></i> typcn typcn-chart-pie-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chart-pie"></i> typcn typcn-chart-pie
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chevron-left-outline"></i> typcn typcn-chevron-left-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chevron-left"></i> typcn typcn-chevron-left
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chevron-right-outline"></i> typcn typcn-chevron-right-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-chevron-right"></i> typcn typcn-chevron-right
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-clipboard"></i> typcn typcn-clipboard
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-cloud-storage"></i> typcn typcn-cloud-storage
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-cloud-storage-outline"></i> typcn typcn-cloud-storage-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-code-outline"></i> typcn typcn-code-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-code"></i> typcn typcn-code
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-coffee"></i> typcn typcn-coffee
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-cog-outline"></i> typcn typcn-cog-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-cog"></i> typcn typcn-cog
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-compass"></i> typcn typcn-compass
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-contacts"></i> typcn typcn-contacts
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-credit-card"></i> typcn typcn-credit-card
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-css3"></i> typcn typcn-css3
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-database"></i> typcn typcn-database
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-delete-outline"></i> typcn typcn-delete-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-delete"></i> typcn typcn-delete
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-device-desktop"></i> typcn typcn-device-desktop
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-device-laptop"></i> typcn typcn-device-laptop
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-device-phone"></i> typcn typcn-device-phone
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-device-tablet"></i> typcn typcn-device-tablet
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-directions"></i> typcn typcn-directions
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-divide-outline"></i> typcn typcn-divide-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-divide"></i> typcn typcn-divide
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-document-add"></i> typcn typcn-document-add
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-document-delete"></i> typcn typcn-document-delete
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-document-text"></i> typcn typcn-document-text
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-document"></i> typcn typcn-document
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-download-outline"></i> typcn typcn-download-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-download"></i> typcn typcn-download
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-dropbox"></i> typcn typcn-dropbox
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-edit"></i> typcn typcn-edit
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-eject-outline"></i> typcn typcn-eject-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-eject"></i> typcn typcn-eject
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-equals-outline"></i> typcn typcn-equals-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-equals"></i> typcn typcn-equals
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-export-outline"></i> typcn typcn-export-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-export"></i> typcn typcn-export
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-eye-outline"></i> typcn typcn-eye-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-eye"></i> typcn typcn-eye
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-feather"></i> typcn typcn-feather
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-film"></i> typcn typcn-film
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-filter"></i> typcn typcn-filter
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flag-outline"></i> typcn typcn-flag-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flag"></i> typcn typcn-flag
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flash-outline"></i> typcn typcn-flash-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flash"></i> typcn typcn-flash
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flow-children"></i> typcn typcn-flow-children
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flow-merge"></i> typcn typcn-flow-merge
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flow-parallel"></i> typcn typcn-flow-parallel
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-flow-switch"></i> typcn typcn-flow-switch
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-folder-add"></i> typcn typcn-folder-add
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-folder-delete"></i> typcn typcn-folder-delete
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-folder-open"></i> typcn typcn-folder-open
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-folder"></i> typcn typcn-folder
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-gift"></i> typcn typcn-gift
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-globe-outline"></i> typcn typcn-globe-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-globe"></i> typcn typcn-globe
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-group-outline"></i> typcn typcn-group-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-group"></i> typcn typcn-group
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-headphones"></i> typcn typcn-headphones
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-heart-full-outline"></i> typcn typcn-heart-full-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-heart-half-outline"></i> typcn typcn-heart-half-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-heart-outline"></i> typcn typcn-heart-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-heart"></i> typcn typcn-heart
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-home-outline"></i> typcn typcn-home-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-home"></i> typcn typcn-home
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-html5"></i> typcn typcn-html5
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-image-outline"></i> typcn typcn-image-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-image"></i> typcn typcn-image
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-infinity-outline"></i> typcn typcn-infinity-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-infinity"></i> typcn typcn-infinity
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-info-large-outline"></i> typcn typcn-info-large-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-info-large"></i> typcn typcn-info-large
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-info-outline"></i> typcn typcn-info-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-info"></i> typcn typcn-info
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-input-checked-outline"></i> typcn typcn-input-checked-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-input-checked"></i> typcn typcn-input-checked
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-key-outline"></i> typcn typcn-key-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-key"></i> typcn typcn-key
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-keyboard"></i> typcn typcn-keyboard
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-leaf"></i> typcn typcn-leaf
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-lightbulb"></i> typcn typcn-lightbulb
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-link-outline"></i> typcn typcn-link-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-link"></i> typcn typcn-link
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-location-arrow-outline"></i> typcn typcn-location-arrow-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-location-arrow"></i> typcn typcn-location-arrow
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-location-outline"></i> typcn typcn-location-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-location"></i> typcn typcn-location
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-lock-closed-outline"></i> typcn typcn-lock-closed-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-lock-closed"></i> typcn typcn-lock-closed
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-lock-open-outline"></i> typcn typcn-lock-open-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-lock-open"></i> typcn typcn-lock-open
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-mail"></i> typcn typcn-mail
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-map"></i> typcn typcn-map
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-eject-outline"></i> typcn typcn-media-eject-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-eject"></i> typcn typcn-media-eject
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-fast-forward-outline"></i> typcn
+                                                        typcn-media-fast-forward-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-fast-forward"></i> typcn typcn-media-fast-forward
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-pause-outline"></i> typcn typcn-media-pause-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-pause"></i> typcn typcn-media-pause
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-play-outline"></i> typcn typcn-media-play-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-play-reverse-outline"></i> typcn
+                                                        typcn-media-play-reverse-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-play-reverse"></i> typcn typcn-media-play-reverse
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-play"></i> typcn typcn-media-play
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-record-outline"></i> typcn typcn-media-record-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-record"></i> typcn typcn-media-record
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-rewind-outline"></i> typcn typcn-media-rewind-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-rewind"></i> typcn typcn-media-rewind
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-stop-outline"></i> typcn typcn-media-stop-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-media-stop"></i> typcn typcn-media-stop
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-message-typing"></i> typcn typcn-message-typing
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-message"></i> typcn typcn-message
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-messages"></i> typcn typcn-messages
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-microphone-outline"></i> typcn typcn-microphone-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-microphone"></i> typcn typcn-microphone
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-minus-outline"></i> typcn typcn-minus-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-minus"></i> typcn typcn-minus
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-mortar-board"></i> typcn typcn-mortar-board
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-news"></i> typcn typcn-news
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-notes-outline"></i> typcn typcn-notes-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-notes"></i> typcn typcn-notes
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pen"></i> typcn typcn-pen
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pencil"></i> typcn typcn-pencil
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-phone-outline"></i> typcn typcn-phone-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-phone"></i> typcn typcn-phone
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pi-outline"></i> typcn typcn-pi-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pi"></i> typcn typcn-pi
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pin-outline"></i> typcn typcn-pin-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pin"></i> typcn typcn-pin
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-pipette"></i> typcn typcn-pipette
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-plane-outline"></i> typcn typcn-plane-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-plane"></i> typcn typcn-plane
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-plug"></i> typcn typcn-plug
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-plus-outline"></i> typcn typcn-plus-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-plus"></i> typcn typcn-plus
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-point-of-interest-outline"></i> typcn typcn-point-of-interest-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-point-of-interest"></i> typcn typcn-point-of-interest
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-power-outline"></i> typcn typcn-power-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-power"></i> typcn typcn-power
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-printer"></i> typcn typcn-printer
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-puzzle-outline"></i> typcn typcn-puzzle-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-puzzle"></i> typcn typcn-puzzle
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-radar-outline"></i> typcn typcn-radar-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-radar"></i> typcn typcn-radar
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-refresh-outline"></i> typcn typcn-refresh-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-refresh"></i> typcn typcn-refresh
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-rss-outline"></i> typcn typcn-rss-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-rss"></i> typcn typcn-rss
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-scissors-outline"></i> typcn typcn-scissors-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-scissors"></i> typcn typcn-scissors
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-shopping-bag"></i> typcn typcn-shopping-bag
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-shopping-cart"></i> typcn typcn-shopping-cart
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-at-circular"></i> typcn typcn-social-at-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-dribbble-circular"></i> typcn typcn-social-dribbble-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-dribbble"></i> typcn typcn-social-dribbble
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-facebook-circular"></i> typcn typcn-social-facebook-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-facebook"></i> typcn typcn-social-facebook
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-flickr-circular"></i> typcn typcn-social-flickr-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-flickr"></i> typcn typcn-social-flickr
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-github-circular"></i> typcn typcn-social-github-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-github"></i> typcn typcn-social-github
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-google-plus-circular"></i> typcn
+                                                        typcn-social-google-plus-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-google-plus"></i> typcn typcn-social-google-plus
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-instagram-circular"></i> typcn typcn-social-instagram-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-instagram"></i> typcn typcn-social-instagram
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-last-fm-circular"></i> typcn typcn-social-last-fm-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-last-fm"></i> typcn typcn-social-last-fm
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-linkedin-circular"></i> typcn typcn-social-linkedin-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-linkedin"></i> typcn typcn-social-linkedin
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-pinterest-circular"></i> typcn typcn-social-pinterest-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-pinterest"></i> typcn typcn-social-pinterest
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-skype-outline"></i> typcn typcn-social-skype-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-skype"></i> typcn typcn-social-skype
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-tumbler-circular"></i> typcn typcn-social-tumbler-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-tumbler"></i> typcn typcn-social-tumbler
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-twitter-circular"></i> typcn typcn-social-twitter-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-twitter"></i> typcn typcn-social-twitter
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-vimeo-circular"></i> typcn typcn-social-vimeo-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-vimeo"></i> typcn typcn-social-vimeo
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-youtube-circular"></i> typcn typcn-social-youtube-circular
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-social-youtube"></i> typcn typcn-social-youtube
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-sort-alphabetically-outline"></i> typcn
+                                                        typcn-sort-alphabetically-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-sort-alphabetically"></i> typcn typcn-sort-alphabetically
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-sort-numerically-outline"></i> typcn typcn-sort-numerically-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-sort-numerically"></i> typcn typcn-sort-numerically
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-spanner-outline"></i> typcn typcn-spanner-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-spanner"></i> typcn typcn-spanner
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-spiral"></i> typcn typcn-spiral
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-star-full-outline"></i> typcn typcn-star-full-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-star-half-outline"></i> typcn typcn-star-half-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-star-half"></i> typcn typcn-star-half
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-star-outline"></i> typcn typcn-star-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-star"></i> typcn typcn-star
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-starburst-outline"></i> typcn typcn-starburst-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-starburst"></i> typcn typcn-starburst
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-stopwatch"></i> typcn typcn-stopwatch
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-support"></i> typcn typcn-support
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tabs-outline"></i> typcn typcn-tabs-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tag"></i> typcn typcn-tag
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tags"></i> typcn typcn-tags
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-large-outline"></i> typcn typcn-th-large-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-large"></i> typcn typcn-th-large
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-list-outline"></i> typcn typcn-th-list-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-list"></i> typcn typcn-th-list
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-menu-outline"></i> typcn typcn-th-menu-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-menu"></i> typcn typcn-th-menu
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-small-outline"></i> typcn typcn-th-small-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-th-small"></i> typcn typcn-th-small
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-thermometer"></i> typcn typcn-thermometer
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-thumbs-down"></i> typcn typcn-thumbs-down
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-thumbs-ok"></i> typcn typcn-thumbs-ok
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-thumbs-up"></i> typcn typcn-thumbs-up
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tick-outline"></i> typcn typcn-tick-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tick"></i> typcn typcn-tick
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-ticket"></i> typcn typcn-ticket
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-time"></i> typcn typcn-time
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-times-outline"></i> typcn typcn-times-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-times"></i> typcn typcn-times
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-trash"></i> typcn typcn-trash
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-tree"></i> typcn typcn-tree
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-upload-outline"></i> typcn typcn-upload-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-upload"></i> typcn typcn-upload
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user-add-outline"></i> typcn typcn-user-add-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user-add"></i> typcn typcn-user-add
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user-delete-outline"></i> typcn typcn-user-delete-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user-delete"></i> typcn typcn-user-delete
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user-outline"></i> typcn typcn-user-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-user"></i> typcn typcn-user
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-vendor-android"></i> typcn typcn-vendor-android
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-vendor-apple"></i> typcn typcn-vendor-apple
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-vendor-microsoft"></i> typcn typcn-vendor-microsoft
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-video-outline"></i> typcn typcn-video-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-video"></i> typcn typcn-video
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-volume-down"></i> typcn typcn-volume-down
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-volume-mute"></i> typcn typcn-volume-mute
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-volume-up"></i> typcn typcn-volume-up
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-volume"></i> typcn typcn-volume
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-warning-outline"></i> typcn typcn-warning-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-warning"></i> typcn typcn-warning
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-watch"></i> typcn typcn-watch
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-waves-outline"></i> typcn typcn-waves-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-waves"></i> typcn typcn-waves
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-cloudy"></i> typcn typcn-weather-cloudy
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-downpour"></i> typcn typcn-weather-downpour
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-night"></i> typcn typcn-weather-night
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-partly-sunny"></i> typcn typcn-weather-partly-sunny
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-shower"></i> typcn typcn-weather-shower
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-snow"></i> typcn typcn-weather-snow
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-stormy"></i> typcn typcn-weather-stormy
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-sunny"></i> typcn typcn-weather-sunny
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-windy-cloudy"></i> typcn typcn-weather-windy-cloudy
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-weather-windy"></i> typcn typcn-weather-windy
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-wi-fi-outline"></i> typcn typcn-wi-fi-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-wi-fi"></i> typcn typcn-wi-fi
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-wine"></i> typcn typcn-wine
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-world-outline"></i> typcn typcn-world-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-world"></i> typcn typcn-world
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom-in-outline"></i> typcn typcn-zoom-in-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom-in"></i> typcn typcn-zoom-in
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom-out-outline"></i> typcn typcn-zoom-out-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom-out"></i> typcn typcn-zoom-out
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom-outline"></i> typcn typcn-zoom-outline
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-4 outer-ellipsis">
+                                                        <i class="typcn typcn-zoom"></i> typcn typcn-zoom
+                                                    </div>
+                                                </div>
+                                                <!-- end of data table -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Typicons-icons card end -->
+                                </div>
+                            </div>
+                            <!-- Modal start -->
+                            <div class="modal fade modal-icon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title" id="myModalLabel">Font Awesome</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <div class="icons-list-box">
+                                                        <i id="icon" class="fa fa-wpbeginner fa-lg"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        Name
+                                                        <input class="form-control" type="text" id="name" value="fa fa-wpbeginner">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        Code
+                                                        <input class="form-control" type="text" id="code" value='<i class="fa fa-wpbeginner"></i>'>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal end -->
+                        </div>
+                        <div class="footer fixed">
+                            <div>
+                                <strong>&copy; 2019</strong> Adminos By <a href="#" class="text-navy">Refinethemes.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notification-menu" class="sticky-top">
+            <div class="notification-menu p-3 notify-scroll">
+                <div class="notification-heading">
+                    <h6 class="menu-title">Messages <a href="#" class="float-right ml-auto" id="close-notification"><i class="feather icon-x"></i></a></h6>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/2.jpg">
+                            </a>
+                            <div class="media-body">
+                                <small class="float-right">46h ago</small>
+                                <strong>John Loreipsum</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user1.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right text-navy">5h ago</small>
+                                <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user2.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right">23h ago</small>
+                                <strong>Monica Smith</strong> love <strong>Carlos Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user3.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right text-navy">5h ago</small>
+                                <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user4.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right text-navy">5h ago</small>
+                                <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user5.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right text-navy">5h ago</small>
+                                <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <div class="dropdown-messages-box">
+                            <a href="profile.html" class="float-left pt-1">
+                                <img alt="image" class="img-circle" src="img/users/user6.jpg">
+                            </a>
+                            <div class="media-body ">
+                                <small class="float-right text-navy">5h ago</small>
+                                <strong>Chris jackson</strong> started following <strong>Anna Smith</strong>. <br>
+                                <small class="text-muted msg-date">3 days ago at 7:58 pm - 01.24.2019</small>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="notification-footer mb-5 text-center">
+                    <h6 class="btn btn-link btn-sm btn-block"><i class="fa fa-spinner fa-spin"></i> Loading More...</h6>
+                </div>
+            </div>
+        </div>
+        <div id="chat" class="sticky-top">
+            <div class="chat-messages">
+                <div class="search-friends">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="search-users" placeholder="Search by name...">
+                        <div class="input-group-append">
+                            <button class="btn btn-default show-chat-list" type="submit" data-toggle="tooltip" title="Close Chat List">
+                                <i class="feather icon-x-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="online-friends">
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/2.jpg">
+                        <strong class="username pt-3">John Carlos</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-success" data-toggle="tooltip" title="Online"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/9.jpg">
+                        <strong class="username pt-3">Andrew Smith</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-success" data-toggle="tooltip" title="Online"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user1.jpg">
+                        <strong class="username pt-3">Mark Albert</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-success" data-toggle="tooltip" title="Online"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user2.jpg">
+                        <strong class="username pt-3">Harry Kim</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-success" data-toggle="tooltip" title="Online"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user5.jpg">
+                        <strong class="username pt-3">Nina Stephan</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-warning" data-toggle="tooltip" title="Away"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user6.jpg">
+                        <strong class="username pt-3">Bill Simth</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-muted" data-toggle="tooltip" title="Offline"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user4.jpg">
+                        <strong class="username pt-3">Delos Frank</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-success" data-toggle="tooltip" title="Online"></i></div>
+                    </div>
+                    <div class="friends  show-chat-msg">
+                        <img alt="image" class="img-friends" src="img/users/user3.jpg">
+                        <strong class="username pt-3">Danny Larry</strong>
+                        <div class="online float-right"><i class="fa fa-circle text-warning" data-toggle="tooltip" title="Away"></i></div>
+                    </div>
+                </div>
+                <div class="des">
+                    <strong>Notes:</strong>
+                    <p class="small">Online friends panel is just for demo purpose and it dose not have any javascript
+                        configuration script, you can add more configuration buttons to other settings panel. </p>
+                </div>
+            </div>
+        </div>
+        <div id="chat-messages" class="sticky-top">
+            <div class="chat-messages">
+                <div class="search-friends text-center">
+                    <i class="feather icon-arrow-right float-left close-chat-msg" data-toggle="tooltip"
+                        title="Close Messages"></i>
+                    <strong class="username pt-3">John Carlos</strong>
+                </div>
+                <div class="online-friends-chat">
+                    <div class="friend-replay">
+                        <div class="user-pic">
+                            <img alt="image" class="img-friends" src="img/2.jpg">
+                        </div>
+                        <div class="user-msg">
+                            <p class="chat-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="your-replay">
+                        <div class="your-pic">
+                            <img alt="image" class="img-friends" src="img/users/user2.jpg">
+                        </div>
+                        <div class="your-msg">
+                            <p class="chat-content bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="friend-replay">
+                        <div class="user-pic">
+                            <img alt="image" class="img-friends" src="img/2.jpg">
+                        </div>
+                        <div class="user-msg">
+                            <p class="chat-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="your-replay">
+                        <div class="your-pic">
+                            <img alt="image" class="img-friends" src="img/users/user2.jpg">
+                        </div>
+                        <div class="your-msg">
+                            <p class="chat-content bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="friend-replay">
+                        <div class="user-pic">
+                            <img alt="image" class="img-friends" src="img/2.jpg">
+                        </div>
+                        <div class="user-msg">
+                            <p class="chat-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="your-replay">
+                        <div class="your-pic">
+                            <img alt="image" class="img-friends" src="img/users/user2.jpg">
+                        </div>
+                        <div class="your-msg">
+                            <p class="chat-content bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="quick-chat" placeholder="Enter Message">
+                        <div class="input-group-append">
+                            <button class="btn btn-default" type="submit">
+                                <i class="feather icon-navigation"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selector-toggle">
+            <a href="javascript:void(0)" class="right-sidebar-toggle"><i class="feather icon-settings rotate-icon"></i></a>
+        </div>
+        <div id="right-sidebar" class="animated">
+            <div class="sidebar-container">
+                <ul class="nav nav-tabs navs-3 setting-menu default-theme" id="mySidenav">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-1"> Skin</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2"><i class="fa fa-cogs"></i></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane active">
+                        <div class="sidebar-title">
+                            <h5> <i class="fa fa-th" aria-hidden="true"></i> Select Skins</h5>
+                            <small>You have 14 Skin Colors.</small>
+                        </div>
+                        <br>
+                        <div class="color-theme-panel">
+                            <div class="themes-scroll">
+                                <h6>Sidebar Layout</h6>
+                                <div class="theme-color">
+                                    <a class="btn-sidebar-theme" data-myattr="white-theme" href="#">
+                                        <div class="sidebar-white"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="default-theme" href="#">
+                                        <div class="sidebar-colored"></div>
+                                    </a>
+                                </div>
+                                <h6>Top Navbar</h6>
+                                <div class="theme-color">
+                                    <a class="btn-header-theme" data-myattr="topNav-white-theme" href="#">
+                                        <div class="theme-29"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-default-theme" href="#">
+                                        <div class="theme-5"></div>
+                                    </a>
+                                </div>
+                                <h6>Header Color</h6>
+                                <div class="theme-color">
+                                    <a class="btn-header-theme" data-myattr="topNav-blue-theme" href="#">
+                                        <div class="theme-1"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-brown-theme" href="#">
+                                        <div class="theme-2"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-dark-gray-theme" href="#">
+                                        <div class="theme-3"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-dark-pink-theme" href="#">
+                                        <div class="theme-4"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-default-theme" href="#">
+                                        <div class="theme-5"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-gray-theme" href="#">
+                                        <div class="theme-6"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-green-theme" href="#">
+                                        <div class="theme-7"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-light-blue-theme" href="#">
+                                        <div class="theme-8"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-light-green-theme" href="#">
+                                        <div class="theme-9"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-orange-theme" href="#">
+                                        <div class="theme-10"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-purple-theme" href="#">
+                                        <div class="theme-11"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-red-theme" href="#">
+                                        <div class="theme-12"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-sky-theme" href="#">
+                                        <div class="theme-13"></div>
+                                    </a>
+                                    <a class="btn-header-theme" data-myattr="topNav-yellow-theme" href="#">
+                                        <div class="theme-14"></div>
+                                    </a>
+                                </div>
+                                <h6>Sidebar Color</h6>
+                                <div class="theme-color">
+                                    <a class="btn-sidebar-theme" data-myattr="blue-theme" href="#">
+                                        <div class="theme-15"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="brown-theme" href="#">
+                                        <div class="theme-16"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="dark-gray-theme" href="#">
+                                        <div class="theme-17"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="dark-pink-theme" href="#">
+                                        <div class="theme-18"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="default-theme" href="#">
+                                        <div class="theme-19"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="gray-theme" href="#">
+                                        <div class="theme-20"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="green-theme" href="#">
+                                        <div class="theme-21"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="light-blue-theme" href="#">
+                                        <div class="theme-22"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="light-green-theme" href="#">
+                                        <div class="theme-23"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="orange-theme" href="#">
+                                        <div class="theme-24"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="purple-theme" href="#">
+                                        <div class="theme-25"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="red-theme" href="#">
+                                        <div class="theme-26"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="sky-theme" href="#">
+                                        <div class="theme-27"></div>
+                                    </a>
+                                    <a class="btn-sidebar-theme" data-myattr="yellow-theme" href="#">
+                                        <div class="theme-28"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="sidebar-content">
+                                <strong>Notes:</strong>
+                                <div class="small">
+                                    Other Settings is just for demo purpose and it dose not have any javascript
+                                    configuration script, you can add more
+                                    configuration buttons to other settings panel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane">
+                        <div class="sidebar-title">
+                            <h5><i class="fa fa-gears"></i> Settings</h5>
+                            <small>You have 12 configuration settings options.</small>
+                        </div>
+                        <div class="setting-scroll">
+                            <div class="setings-item">
+                                <span>
+                                    Fix Navbar
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="fixed-top-navbar">
+                                        <label class="onoffswitch-label" for="fixed-top-navbar">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Mini Sidebar Menu
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="mini-sidebar-menu">
+                                        <label class="onoffswitch-label" for="mini-sidebar-menu">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    RTL Navbar
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="RTL-layout">
+                                        <label class="onoffswitch-label" for="RTL-layout">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Show Notifications
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="show-notifications">
+                                        <label class="onoffswitch-label" for="show-notifications">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Fixed Footer
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="fixed-footer">
+                                        <label class="onoffswitch-label" for="fixed-footer">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Disable Quick Chat
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="disableChat">
+                                        <label class="onoffswitch-label" for="disableChat">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Collapsed Panels
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="collapsed-panels">
+                                        <label class="onoffswitch-label" for="collapsed-panels">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-box-title">
+                                <h5><i class="fa fa-server"></i> Other Settings</h5>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Enable History
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example9">
+                                        <label class="onoffswitch-label" for="example9">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Offline Users
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example10">
+                                        <label class="onoffswitch-label" for="example10">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Global Search
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked name="collapsemenu" class="onoffswitch-checkbox" id="example11">
+                                        <label class="onoffswitch-label" for="example11">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Update Everyday
+                                </span>
+                                <div class="switch float-right">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example12">
+                                        <label class="onoffswitch-label" for="example12">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-content">
+                            <strong>Notes:</strong>
+                            <div class="small">
+                                Other Settings is just for demo purpose and it dose not have any javascript configuration
+                                script, you can add more
+                                configuration buttons to other settings panel.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mainly scripts -->
+    <script src="plugins/jquery/jquery-3.1.1.min.js"></script>
+    <script src="plugins/popper/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="plugins/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <!-- Toastr JS -->
+    <script src="plugins/toastr/toastr.min.js"></script>
+    <!-- GITTER -->
+    <script src="plugins/gritter/jquery.gritter.min.js"></script>
+    <!-- jquery UI -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Touch Punch - Touch Event Support for jQuery UI -->
+    <script src="plugins/touchpunch/jquery.ui.touch-punch.min.js"></script>
+    <!-- Pace JS -->
+    <script src="plugins/pace/pace.min.js"></script>
+    <!--Icons Custom JS-->
+    <script src="js/pages-js/icons.js"></script>
+    <!--Jquery Cookies JS-->
+    <script src="plugins/jquery.cookie/js/jquery.cookie.js"></script>
+    <!--Custom JS-->
+    <script src="js/AdminosJS.js"></script>
+</body>
+
+<!-- Mirrored from refinethemes.com/Static_Version/icons_typicons.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Mar 2021 05:56:42 GMT -->
+</html>
